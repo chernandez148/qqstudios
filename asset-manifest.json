@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/chernandez148/qqstudios/static/css/main.12ed10a3.css",
-    "main.js": "/chernandez148/qqstudios/static/js/main.7671caf7.js",
-    "static/media/home-bg-alt.jpg": "/chernandez148/qqstudios/static/media/home-bg-alt.de3369dc0ffd20c54a14.jpg",
-    "static/media/mock-designs.png": "/chernandez148/qqstudios/static/media/mock-designs.a306da368f0801e0a2c9.png",
-    "static/media/brand-identity-blue.png": "/chernandez148/qqstudios/static/media/brand-identity-blue.027feba9276d63bcece9.png",
-    "static/media/brand-identity-red.png": "/chernandez148/qqstudios/static/media/brand-identity-red.c6b430d2a5b8c4ccda59.png",
-    "static/media/graphic-design-blue.png": "/chernandez148/qqstudios/static/media/graphic-design-blue.81cec30c2a7434e1db19.png",
-    "static/media/graphic-design-red.png": "/chernandez148/qqstudios/static/media/graphic-design-red.4b5cfaf4f85fe77be828.png",
-    "index.html": "/chernandez148/qqstudios/index.html",
-    "main.12ed10a3.css.map": "/chernandez148/qqstudios/static/css/main.12ed10a3.css.map",
-    "main.7671caf7.js.map": "/chernandez148/qqstudios/static/js/main.7671caf7.js.map"
+    "main.css": "/qqstudios/static/css/main.2680783f.css",
+    "main.js": "/qqstudios/static/js/main.9c203884.js",
+    "static/media/home-bg-alt.jpg": "/qqstudios/static/media/home-bg-alt.de3369dc0ffd20c54a14.jpg",
+    "static/media/mock-designs.png": "/qqstudios/static/media/mock-designs.a306da368f0801e0a2c9.png",
+    "static/media/brand-identity-blue.png": "/qqstudios/static/media/brand-identity-blue.027feba9276d63bcece9.png",
+    "static/media/brand-identity-red.png": "/qqstudios/static/media/brand-identity-red.c6b430d2a5b8c4ccda59.png",
+    "static/media/graphic-design-blue.png": "/qqstudios/static/media/graphic-design-blue.81cec30c2a7434e1db19.png",
+    "static/media/graphic-design-red.png": "/qqstudios/static/media/graphic-design-red.4b5cfaf4f85fe77be828.png",
+    "index.html": "/qqstudios/index.html",
+    "main.2680783f.css.map": "/qqstudios/static/css/main.2680783f.css.map",
+    "main.9c203884.js.map": "/qqstudios/static/js/main.9c203884.js.map"
   },
   "entrypoints": [
-    "static/css/main.12ed10a3.css",
-    "static/js/main.7671caf7.js"
+    "static/css/main.2680783f.css",
+    "static/js/main.9c203884.js"
   ]
 }
