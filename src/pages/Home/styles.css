@@ -1,0 +1,146 @@
+.Home {
+    transition: all 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-image: url('../../assets/home-bg-alt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0 12rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 0 50%;
+}
+
+.hero-left,
+.hero-right {
+    width: 50%;
+}
+
+.hero-left h3 {
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.hero-left .title-wrapper {
+    position: relative;
+}
+
+.title-wrapper h1 {
+    font-size: 130px;
+    color: white;
+    line-height: 125px;
+    font-weight: 800;
+    transition: all .5s ease-in-out;
+}
+
+.title-wrapper h1:last-child {
+    position: absolute;
+    top: 0;
+}
+
+.hero-left p {
+    color: white;
+    font-size: 16px;
+}
+
+.hero-left .hero-btn-wrapper {
+    position: relative;
+    width: fit-content;
+    transition: all .3s ease-in-out;
+}
+
+.hero-btn-wrapper button {
+    padding: 1rem 2rem;
+    border: 0;
+    background: white;
+    color: #f52119;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.hero-btn-wrapper:hover {
+    box-shadow: -11px -9px #35FFE4;
+}
+
+.hero-btn-wrapper button:hover {
+    box-shadow: 8px 6px #f52119;
+    cursor: pointer;
+}
+
+.hero-btn-wrapper svg {
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .hero {
+        padding: 0 6rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Home {
+        height: initial;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 6rem 3rem;
+        border-radius: 0 0 0 0 !important;
+        height: initial;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .title-wrapper h1 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title-wrapper h1 {
+        font-size: 75px;
+        line-height: 90px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 6rem 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title-wrapper h1 {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .hero-left h3 {
+        font-size: 20px;
+    }
+
+    .hero-left p {
+        font-size: 14px;
+    }
+
+    .hero-btn-wrapper button {
+        padding: 0.5rem 1rem;
+    }
+
+    .hero-right {
+        margin: 3rem 0;
+    }
+}
